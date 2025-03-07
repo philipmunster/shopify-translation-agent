@@ -169,3 +169,13 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# other
+# Ignore Jupyter checkpoint files
+.ipynb_checkpoints/
+
+# Ignore package metadata
+*.egg-info/
+
+# Ignore all checkpoint notebooks
+notebooks/*-checkpoint.ipynb
